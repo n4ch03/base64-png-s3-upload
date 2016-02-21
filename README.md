@@ -1,5 +1,5 @@
 # base64-png-uploader
-![](https://api.travis-ci.org/n4ch03/base64-png-uploader.svg?branch=master)
+[![Build Status](https://travis-ci.org/n4ch03/base64-png-uploader.png)](https://travis-ci.org/n4ch03/base64-png-uploader)
 
 Upload a base64 encoded png to S3 or file system. Other cloud storage services could be or not here soon ;)
 Very useful to use with Test Automation with Selenium to store screenshots taken.
