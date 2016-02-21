@@ -16,7 +16,7 @@ function saveFile(fileName, fileContents, callback) {
   fs.writeFile(fileName, fileContents, 'base64', callback);
 }
 
-//callback: (err) => (data)
+//callback: (err,data) =>
 function uploadS3(fileName, fileContents, callback) {
   var s3 = new aws.S3();
   var params = {

@@ -1,0 +1,36 @@
+{
+  "name": "base64-png-uploader",
+  "version": "1.0.0",
+  "description": "A simple module to upload png files to different services from base64 encoded pic.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n4ch03/base64-png-uploader.git"
+  },
+  "keywords": [
+    "selenium",
+    "s3",
+    "png",
+    "upload"
+  ],
+  "author": "Ignacio Esmite <iesmite@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n4ch03/base64-png-uploader/issues"
+  },
+  "homepage": "https://github.com/n4ch03/base64-png-uploader#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mock-require": "^1.2.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.37"
+  }
+}
